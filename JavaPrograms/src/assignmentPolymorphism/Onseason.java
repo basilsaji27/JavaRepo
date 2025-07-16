@@ -17,5 +17,6 @@ public class Onseason extends Offseason {
 		a1.discount(actualPrice);
 		Offseason a2 = new Onseason();
 		a2.discount(actualPrice);
+		sc.close();
 	}
 }
